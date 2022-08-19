@@ -1,0 +1,14 @@
+{% extends "blog/base_generic.html" %}
+
+{% block content %}
+  <h1>Another Blog Site Home</h1>
+  <p>Welcome to Another Blog Site, a website developed by Morgan.</p>
+  <h2>Dynamic content</h2>
+  <p>The blog has the following record counts:</p>
+  <ul>
+    <li><strong>Posts:</strong> {{ num_posts }}</li>
+    <li><strong>Authors:</strong> {{ num_authors }}</li>
+  </ul>
+  
+  <p>You have visited this page {{ num_visits }} time{{ num_visits|pluralize }}.</p>  
+{% endblock %}
