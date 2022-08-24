@@ -6,3 +6,6 @@
 
 # Database
 *.sqlite3
+
+# Virtual environment files
+venv
